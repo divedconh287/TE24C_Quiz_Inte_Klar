@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TE24C_Quiz")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b912524e45a7a60c62fcb9b40ea3de930c4b533")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+bc03d075446b2d773f6398aabc44856718269cb4")]
 [assembly: System.Reflection.AssemblyProductAttribute("TE24C_Quiz")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TE24C_Quiz")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
