@@ -1,0 +1,15 @@
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.AssemblyInfoInputs.cache
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.AssemblyInfo.cs
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.csproj.CoreCompileInputs.cache
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.sourcelink.json
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\bin\Debug\net9.0\TE24C_Quiz.exe
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\bin\Debug\net9.0\TE24C_Quiz.deps.json
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\bin\Debug\net9.0\TE24C_Quiz.runtimeconfig.json
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\bin\Debug\net9.0\TE24C_Quiz.dll
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\bin\Debug\net9.0\TE24C_Quiz.pdb
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.dll
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\refint\TE24C_Quiz.dll
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.pdb
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\TE24C_Quiz.genruntimeconfig.cache
+C:\Users\aaron.granath\Documents\Programmering 1\TE24C_Quiz\TE24C_Quiz\obj\Debug\net9.0\ref\TE24C_Quiz.dll

@@ -1,0 +1,14 @@
+﻿// string name = "Bowser";
+// int hitpoints = 100 + 50 * 2;
+
+// hitpoints = hitpoints + 100;
+// hitpoints -= 150;
+
+// Console.WriteLine(hitpoints);
+// if (hitpoints < 200)
+// { Console.WriteLine("SKADAD!"); }
+
+int test = 20 % 3;
+Console.WriteLine(test);
+
+Console.ReadLine();
