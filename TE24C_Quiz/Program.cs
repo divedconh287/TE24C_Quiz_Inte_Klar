@@ -1,64 +1,81 @@
 int points = 0;
-Console.WriteLine("skriv ditt namn");
-string namn;
-Console.WriteLine($"Välkommen till frågesport{namn}!!! skriv endast bokstaven");
-namn = Console.ReadLine().ToLower();
+string name;
 
-Console.WriteLine("Fråga 1:\n");
-Console.WriteLine("a) b) c)");
+Console.WriteLine("""
+                        88            
+                        ""            
+                                      
+ ,adPPYb,d8 88       88 88 888888888  
+a8"    `Y88 88       88 88      a8P"  
+8b       88 88       88 88   ,d8P'    
+"8a    ,d88 "8a,   ,a88 88 ,d8"       
+ `"YbbdP'88  `"YbbdP'Y8 88 888888888  
+         88                           
+         88 
+"""); // https://ascii.co.uk/art/quiz
+Console.WriteLine("Skriv ditt namn.");
+name = Console.ReadLine();
+Console.WriteLine($"Välkommen till frågesport {name}!!!");
+
+
+Console.WriteLine("\nFråga 1:\nVad är mitt mellannamn?");
+Console.WriteLine("a) Seven b) Åke c) Acke");
 string answer1 = Console.ReadLine().ToLower();
-if (answer1 == "b")
+if (answer1 == "c")
 {
     points++;
-    Console.WriteLine("CORRECT");
+    Console.WriteLine("RÄTT");
 }
 else
 {
-    Console.WriteLine("INCORRECT");
+    Console.WriteLine("FEL");
 }
 
-Console.WriteLine("Fråga 2:\n");
+Console.WriteLine("\nFråga 2:\n?");
 Console.WriteLine("a) b) c)");
 string answer2 = Console.ReadLine().ToLower();
 if (answer2 == "b")
 {
     points++;
-Console.WriteLine("CORRECT");
+Console.WriteLine("RÄTT");
 }
 else
 {
-Console.WriteLine("INCORRECT");
+Console.WriteLine("FEL");
 }
 
-Console.WriteLine("Fråga 3:\n");
+Console.WriteLine("Fråga 3:\n?");
 Console.WriteLine("a) b) c)");
 string answer3 = Console.ReadLine().ToLower();
 if (answer3 == "b")
 {
     points++;
-    Console.WriteLine("CORRECT");
+    Console.WriteLine("RÄTT");
 }
 else
 {
-    Console.WriteLine("INCORRECT");
+    Console.WriteLine("FEL");
 }
-Console.WriteLine($"GOOD JOB YOU GOT {points} POINTS");
+Console.Write($"\nGOOD JOB YOU GOT {points} ");
 if (points == 0)
 {
-    Console.WriteLine("boooo");
+    Console.WriteLine("\nboooo");
 }
 else if (points == 1)
 {
-    Console.WriteLine("okej");
+    Console.WriteLine("POINT");
+    Console.WriteLine("\nokej");
 }
 else if (points == 2)
 {
-    Console.WriteLine("Det är \"dos\" på spanska, förvånad att du inte visste det.");
+    Console.WriteLine("POINTS");
+    Console.WriteLine("\nDet är \"dos\" på spanska, förvånad att du inte visste det.");
 }
 else
 {
-    Console.WriteLine("ALLA?!\n");
+    Console.WriteLine("POINTS");
+    Console.WriteLine("\n?!");
 }
 
-Console.WriteLine("ok hejdå");
+Console.WriteLine("\nOk hejdå");
 Console.ReadLine();
