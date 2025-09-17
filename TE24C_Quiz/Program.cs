@@ -1,4 +1,3 @@
-int points = 0;
 string name;
 
 Console.WriteLine("""
@@ -18,64 +17,76 @@ name = Console.ReadLine();
 Console.WriteLine($"Välkommen till frågesport {name}!!!");
 
 
-Console.WriteLine("\nFråga 1:\nVad är mitt mellannamn?");
-Console.WriteLine("a) Seven b) Åke c) Acke");
-string answer1 = Console.ReadLine().ToLower();
-if (answer1 == "c")
+while (true)
 {
-    points++;
-    Console.WriteLine("RÄTT");
-}
-else
-{
-    Console.WriteLine("FEL");
-}
 
-Console.WriteLine("\nFråga 2:\nHur många Harry Potter böcker respektive filmer finns det?");
-Console.WriteLine("a) 7 böcker & 7 filmer b) 7 böcker & 8 filmer c) 8 böcker & 8 filmer");
-string answer2 = Console.ReadLine().ToLower();
-if (answer2 == "b")
-{
-    points++;
-Console.WriteLine("RÄTT");
-}
-else
-{
-Console.WriteLine("FEL");
-}
+    int points = 0;
+    Console.WriteLine("\nFråga 1:\nVad är mitt mellannamn?");
+    Console.WriteLine("a) Seven b) Åke c) Acke");
+    string answer1 = Console.ReadLine().ToLower();
+    if (answer1 == "c")
+    {
+        points++;
+        Console.WriteLine("RÄTT");
+    }
+    else
+    {
+        Console.WriteLine("FEL");
+    }
 
-Console.WriteLine("Fråga 3:\nVad hette mina homestay under höstterminen 2025?");
-Console.WriteLine("a) Yudai & Keita b) Kosuke & Yudai c) Hana & Keita");
-string answer3 = Console.ReadLine().ToLower();
-if (answer3 == "a")
-{
-    points++;
-    Console.WriteLine("RÄTT");
+    Console.WriteLine("\nFråga 2:\nHur många Harry Potter böcker respektive filmer finns det?");
+    Console.WriteLine("a) 7 böcker & 7 filmer b) 7 böcker & 8 filmer c) 8 böcker & 8 filmer");
+    string answer2 = Console.ReadLine().ToLower();
+    if (answer2 == "b")
+    {
+        points++;
+        Console.WriteLine("RÄTT");
+    }
+    else
+    {
+        Console.WriteLine("FEL");
+    }
+
+    Console.WriteLine("Fråga 3:\nVad hette mina homestay under höstterminen 2025?");
+    Console.WriteLine("a) Yudai & Keita b) Kosuke & Yudai c) Hana & Keita");
+    string answer3 = Console.ReadLine().ToLower();
+    if (answer3 == "a")
+    {
+        points++;
+        Console.WriteLine("RÄTT");
+    }
+    else
+    {
+        Console.WriteLine("FEL");
+    }
+    Console.Write($"\nGOOD JOB YOU GOT {points} ");
+    if (points == 0)
+    {
+        Console.WriteLine("\nboooo");
+    }
+    else if (points == 1)
+    {
+        Console.WriteLine("POINT");
+        Console.WriteLine("\nehh det är väl okej, antar jag.");
+    }
+    else if (points == 2)
+    {
+        Console.WriteLine("POINTS");
+        Console.WriteLine("\nDet är \"dos\" på spanska, förvånad att du inte visste det.");
+    }
+    else
+    {
+        Console.WriteLine("POINTS");
+        Console.WriteLine("\nGrattis!");
+    }
+    Console.ReadLine();
+    Console.WriteLine("\nFrågesporten är slut nu.");
+
+
+    Console.WriteLine("Spela igen?\nJa eller nej?");
+    string playagain = Console.ReadLine().ToLower();
+    if (playagain == "nej")
+    {
+        break;
+    }
 }
-else
-{
-    Console.WriteLine("FEL");
-}
-Console.Write($"\nGOOD JOB YOU GOT {points} ");
-if (points == 0)
-{
-    Console.WriteLine("\nboooo");
-}
-else if (points == 1)
-{
-    Console.WriteLine("POINT");
-    Console.WriteLine("\nehh det är väl okej, antar jag.");
-}
-else if (points == 2)
-{
-    Console.WriteLine("POINTS");
-    Console.WriteLine("\nDet är \"dos\" på spanska, förvånad att du inte visste det.");
-}
-else
-{
-    Console.WriteLine("POINTS");
-    Console.WriteLine("\nGrattis!");
-}
-Console.ReadLine();
-Console.WriteLine("\nFrågesporten är slut nu.");
-Console.ReadLine();
