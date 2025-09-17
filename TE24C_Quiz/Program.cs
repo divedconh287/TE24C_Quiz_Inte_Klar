@@ -31,8 +31,8 @@ else
     Console.WriteLine("FEL");
 }
 
-Console.WriteLine("\nFråga 2:\n?");
-Console.WriteLine("a) b) c)");
+Console.WriteLine("\nFråga 2:\nHur många Harry Potter böcker respektive filmer finns det?");
+Console.WriteLine("a) 7 böcker & 7 filmer b) 7 böcker & 8 filmer c) 8 böcker & 8 filmer");
 string answer2 = Console.ReadLine().ToLower();
 if (answer2 == "b")
 {
@@ -44,10 +44,10 @@ else
 Console.WriteLine("FEL");
 }
 
-Console.WriteLine("Fråga 3:\n?");
-Console.WriteLine("a) b) c)");
+Console.WriteLine("Fråga 3:\nVad hette mina homestay under höstterminen 2025?");
+Console.WriteLine("a) Yudai & Keita b) Kosuke & Yudai c) Hana & Keita");
 string answer3 = Console.ReadLine().ToLower();
-if (answer3 == "b")
+if (answer3 == "a")
 {
     points++;
     Console.WriteLine("RÄTT");
@@ -64,7 +64,7 @@ if (points == 0)
 else if (points == 1)
 {
     Console.WriteLine("POINT");
-    Console.WriteLine("\nokej");
+    Console.WriteLine("\nehh det är väl okej, antar jag.");
 }
 else if (points == 2)
 {
@@ -74,8 +74,8 @@ else if (points == 2)
 else
 {
     Console.WriteLine("POINTS");
-    Console.WriteLine("\n?!");
+    Console.WriteLine("\nGrattis!");
 }
-
-Console.WriteLine("\nOk hejdå");
+Console.ReadLine();
+Console.WriteLine("\nFrågesporten är slut nu.");
 Console.ReadLine();
